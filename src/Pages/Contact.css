@@ -1,0 +1,15 @@
+h1{
+  align-items: center;
+}
+
+.container {
+  display: flex; 
+  justify-content: center;
+  align-content: center;
+
+}
+
+
+span {
+  color: rgb(31, 121, 173);
+}

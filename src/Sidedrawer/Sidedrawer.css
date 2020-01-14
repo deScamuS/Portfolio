@@ -1,6 +1,7 @@
 .side-drawer {
   height: 100%;
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);  position: fixed;
+  position: fixed;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   top: 0;
   left: 0;
   width: 70%;
@@ -17,6 +18,7 @@
 .side-drawer ul {
   height: 100%;
   list-style: none;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,18 +29,19 @@
 }
 
 .side-drawer a {
-  color: #304E6D;
+  color: #e2d1c3;
   text-decoration: none;
   font-size: 1.2rem;
+  font-family: "Gayathri", sans-serif;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: #850C0A;
+  color: #a73737;
 }
 
 @media (min-width: 769px) {
-    .side-drawer {
-        display: none;
-    }
+  .side-drawer {
+    display: none;
+  }
 }

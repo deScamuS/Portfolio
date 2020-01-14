@@ -1,14 +1,12 @@
-
-    import React, { Component } from "react";
+import React, { Component } from "react";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import logo from "../img/nasa.png";
-import image from "../img/jscalc.jpeg";
+import image from "../img/calc.png";
 import image2 from "../img/weather.jpg";
 import image3 from "../img/booklist.jpg";
-import Fade from 'react-reveal/Fade';
-
-
+import Fade from "react-reveal/Fade";
+import NavBar from "../Navbar";
 import {
   Tabs,
   Tab,
@@ -44,7 +42,7 @@ export default class Projects extends Component {
                 color: "#fff",
                 height: "300px",
                 backgroundImage:
-                  "linear-gradient(60deg, #29323c 0%, #485563 100%)"
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}
             >
               <img src={logo} alt="none" />
@@ -64,13 +62,12 @@ export default class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
-          <a href="https://descamus.github.io/Calculator_Javascript/">
+          <a href="https://descamus.github.io/jscript_calc/">
             <CardTitle
               style={{
                 color: "#fff",
                 height: "300px",
-                backgroundImage:
-                  "linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%)"
+                backgroundColor: "#a73737"
               }}
             >
               <img src={image} alt="error" />
@@ -79,9 +76,7 @@ export default class Projects extends Component {
           <CardText style={{ fontSize: "1.5rem" }}>Calculator</CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/Calculator_Javascript">
-                code
-              </a>
+              <a href="https://github.com/deScamuS/jscript_calc">code</a>
             </Button>
           </CardActions>
         </Card>
@@ -95,7 +90,7 @@ export default class Projects extends Component {
                 color: "#fff",
                 height: "300px",
                 backgroundImage:
-                  "linear-gradient(45deg, #874da2 0%, #c43a30 100%)"
+                  "linear-gradient(60deg, #29323c 5%, #485563 100%)"
               }}
             >
               <img src={image2} alt="error" />
@@ -114,22 +109,21 @@ export default class Projects extends Component {
     } else if (this.state.activeTab === 3) {
       return (
         <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
-          <a href="https://descamus.github.io/booklist_App/">
+          <a href="https://descamus.github.io/canvas/">
             <CardTitle
               style={{
                 color: "#fff",
                 height: "300px",
-                backgroundImage:
-                  "linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%)"
+                backgroundColor: "#a73737"
               }}
             >
               <img src={image3} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>Booklist</CardText>
+          <CardText style={{ fontSize: "1.5rem" }}>Quick Reference</CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/booklist_App">code</a>
+              <a href="https://github.com/deScamuS/canvas">code</a>
             </Button>
           </CardActions>
         </Card>
@@ -139,27 +133,36 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div className="project-tabs" style={{marginTop:100}}>
-        <Tabs activeTab={this.state.activeTab} onChange={this.handleChange}>
-          <Tab>React</Tab>
-          <Tab>Javascript</Tab>
-          <Tab>React</Tab>
-          <Tab>Javascript</Tab>
-        </Tabs>
-        <Grid className="projects">
-          <Cell col={12}>
-            <div className="content">{this.toggleContent()}</div>
-          </Cell>
-        </Grid>
-        <div>
-        <Fade right big>
-            <h1 style={textStyle}><center>Projects</center></h1>
-        </Fade>
-      </div>
-      </div>
+      <>
+        <NavBar />
+        <div
+          className="project-tabs"
+          style={{ marginTop: "", position: "center" }}
+        >
+          <Tabs activeTab={this.state.activeTab} onChange={this.handleChange}>
+            <Tab>React</Tab>
+            <Tab>Javascript</Tab>
+            <Tab>React</Tab>
+            <Tab>Javascript</Tab>
+          </Tabs>
+          <Grid className="projects">
+            <Cell col={12}>
+              <div className="content">{this.toggleContent()}</div>
+            </Cell>
+          </Grid>
+          <div>
+            <Fade right big>
+              <h1 style={textStyle}>
+                <center>Projects</center>
+              </h1>
+            </Fade>
+          </div>
+        </div>
+      </>
     );
   }
 }
-const textStyle= {
-  color: '#a73737'
+const textStyle = {
+  color: "#a73737",
+  fontFamily: "Alcubierre, sans serif"
 };

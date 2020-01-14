@@ -1,7 +1,8 @@
-html, body {
-  font-family: "Roboto", sans-serif;
- 
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 @media (min-width: 576px) {
@@ -37,15 +38,15 @@ html, body {
 .Home {
   display: flex;
   flex-direction: column;
-	min-height: 100vh;
+  min-height: 100vh;
   justify-content: center;
-	padding: 0;
-	margin: 0; 
+  padding: 0;
+  margin: 0;
   text-align: center;
   background: #a73737;
 
   background-repeat: no-repeat;
- color: rgb(255, 255, 255, 0.6);
+  color: #e2d1c3;
 }
 
 .Home > .intro {
@@ -61,7 +62,7 @@ html, body {
 }
 
 .icons-social a {
-  color: #fafafa;
+  color: #e2d1c3;
 }
 
 .icons-social a svg path {
@@ -72,7 +73,7 @@ html, body {
   padding: 10px;
 }
 .icons-social :hover {
-  color: lightgrey;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
 .devto {

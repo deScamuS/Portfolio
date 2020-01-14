@@ -16,7 +16,9 @@
 }
 
 .toggle-button__line {
-  width: 30px;
-  height: 2px;
-  background: white;
+  width: 4rem;
+  height: 0.24rem;
+  background: #e2d1c3;
+  border-radius: 1px;
+  position: relative;
 }

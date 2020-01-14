@@ -4,7 +4,7 @@ import Topnav from './Topnav/Topnav';
 import Sidedrawer from './Sidedrawer/Sidedrawer';
 import Backdrop from './Backdrop/Backdrop';
 
-export default class App extends Component {
+export default class NavBar extends Component {
   state = {
     sideDrawerOpen: false
   };
@@ -21,7 +21,6 @@ export default class App extends Component {
 
   render() {
     let backdrop;
-
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }

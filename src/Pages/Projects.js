@@ -36,7 +36,7 @@ export default class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
-          <a href="https://descamus.github.io/nasa-api_react">
+          <a href=" https://descamus.github.io/nasa_api">
             <CardTitle
               style={{
                 color: "#fff",
@@ -54,7 +54,7 @@ export default class Projects extends Component {
           </CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/nasa-api_react">code</a>
+              <a href="https://github.com/deScamuS/nasa_api">code</a>
             </Button>
           </CardActions>
         </Card>

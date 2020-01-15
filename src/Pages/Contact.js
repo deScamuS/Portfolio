@@ -3,10 +3,12 @@ import React from "react";
 import "./Contact.css";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";
-
+import logo0 from "../img/react2.png";
+import logo1 from "../img/jslogo.png";
+import logo2 from "../img/node.png";
 const Contact = () => {
   return (
-    <>
+    <div style={{ backgroundColor: "#e2d1c3" }}>
       <NavBar />
       <div className="contact1">
         <div className="contact">
@@ -24,12 +26,26 @@ const Contact = () => {
             Egypt.
             <br />
             <br />I developed a passion for programming and eventually decided
-            to take make a career change - so here we are. As a teacher I was
+            to take make a change - so here we are. As a teacher I was
             constantly learning new things while experiencing diverse cultures
             around the world and I'm confident that through hardwork, my love of
             learning and fascination with programming, I could be an asset on
-            any team... And I like making stuff.
+            any team... And I like making stuff with...
           </p>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              
+            }}
+          >
+            <Fade right big>
+              <img src={logo0} alt="" />
+              <img src={logo1} alt="" />
+              <img src={logo2} alt="" />
+            </Fade>
+          </div>
           <br />
           <hr />
           <Fade left big>
@@ -60,7 +76,7 @@ const Contact = () => {
           </div>
         </main>
       </div>
-    </>
+    </div>
   );
 };
 

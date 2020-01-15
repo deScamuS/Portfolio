@@ -7,6 +7,7 @@ import image2 from "../img/weather.jpg";
 import image3 from "../img/booklist.jpg";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";
+import "./Projects.css";
 import {
   Tabs,
   Tab,
@@ -35,7 +36,14 @@ export default class Projects extends Component {
   toggleContent = () => {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+        <Card
+          shadow={6}
+          style={{
+            minWidth: "450",
+            margin: "auto",
+            backgroundColor: "#e2d1c3"
+          }}
+        >
           <a href=" https://descamus.github.io/nasa_api">
             <CardTitle
               style={{
@@ -54,14 +62,22 @@ export default class Projects extends Component {
           </CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/nasa_api">code</a>
+              <a
+                style={{ color: "#a73737" }}
+                href="https://github.com/deScamuS/nasa_api"
+              >
+                code
+              </a>
             </Button>
           </CardActions>
         </Card>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+        <Card
+          shadow={6}
+          style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
+        >
           <a href="https://descamus.github.io/jscript_calc/">
             <CardTitle
               style={{
@@ -76,14 +92,22 @@ export default class Projects extends Component {
           <CardText style={{ fontSize: "1.5rem" }}>Calculator</CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/jscript_calc">code</a>
+              <a
+                style={{ color: "#a73737" }}
+                href="https://github.com/deScamuS/jscript_calc"
+              >
+                code
+              </a>
             </Button>
           </CardActions>
         </Card>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+        <Card
+          shadow={6}
+          style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
+        >
           <a href="https://descamus.github.io/weather-application_react/">
             <CardTitle
               style={{
@@ -99,7 +123,10 @@ export default class Projects extends Component {
           <CardText style={{ fontSize: "1.3rem" }}>Another WeatherApp</CardText>
           <CardActions border>
             <Button onClick={this.handleClick} colored>
-              <a href="https://github.com/descamus/weather-application_react/">
+              <a
+                style={{ color: "#a73737" }}
+                href="https://github.com/descamus/weather-application_react/"
+              >
                 code
               </a>
             </Button>
@@ -108,7 +135,10 @@ export default class Projects extends Component {
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <Card shadow={6} style={{ minWidth: "450", margin: "auto" }}>
+        <Card
+          shadow={6}
+          style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
+        >
           <a href="https://descamus.github.io/canvas/">
             <CardTitle
               style={{
@@ -123,7 +153,12 @@ export default class Projects extends Component {
           <CardText style={{ fontSize: "1.5rem" }}>Quick Reference</CardText>
           <CardActions border>
             <Button colored>
-              <a href="https://github.com/deScamuS/canvas">code</a>
+              <a
+                style={{ color: "#a73737" }}
+                href="https://github.com/deScamuS/canvas"
+              >
+                code
+              </a>
             </Button>
           </CardActions>
         </Card>
@@ -133,11 +168,11 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <>
+      <div style={{ backgroundColor: "#e2d1c3" }}>
         <NavBar />
         <div
           className="project-tabs"
-          style={{ marginTop: "", position: "center" }}
+          style={{ marginTop: "15vhm", position: "center" }}
         >
           <Tabs activeTab={this.state.activeTab} onChange={this.handleChange}>
             <Tab>React</Tab>
@@ -158,11 +193,12 @@ export default class Projects extends Component {
             </Fade>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }
 const textStyle = {
   color: "#a73737",
-  fontFamily: "Alcubierre, sans serif"
+  fontFamily: "Alcubierre, sans serif",
+  backgroundColor: "#e2d1c3 "
 };

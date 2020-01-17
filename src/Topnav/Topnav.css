@@ -2,16 +2,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-
   height: 100px;
 }
-
 .toolbar__navigation {
   display: flex;
   height: 100%;
   align-items: center;
   padding: 02rem;
+  background-color: #ee6e73;
+
 }
 
 .toolbar__logo {
@@ -44,11 +43,12 @@
 .toolbar_navigation-items a {
   color: #e2d1c3;
   text-decoration: none;
+  margin-right: 17px;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: #a73737;
+color: rgba(72, 85, 99, 4) !important;
 }
 
 @media (max-width: 768px) {

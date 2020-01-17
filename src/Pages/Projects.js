@@ -63,7 +63,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#a73737" }}
+                style={{ color: "#ee6e73 " }}
                 href="https://github.com/deScamuS/nasa_api"
               >
                 code
@@ -83,7 +83,8 @@ export default class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "300px",
-                backgroundColor: "#a73737"
+                backgroundImage:
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}
             >
               <img src={image} alt="error" />
@@ -93,7 +94,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#a73737" }}
+                style={{ color: "#ee6e73 " }}
                 href="https://github.com/deScamuS/jscript_calc"
               >
                 code
@@ -114,7 +115,7 @@ export default class Projects extends Component {
                 color: "#fff",
                 height: "300px",
                 backgroundImage:
-                  "linear-gradient(60deg, #29323c 5%, #485563 100%)"
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}
             >
               <img src={image2} alt="error" />
@@ -124,7 +125,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button onClick={this.handleClick} colored>
               <a
-                style={{ color: "#a73737" }}
+                style={{ color: "#ee6e73 " }}
                 href="https://github.com/descamus/weather-application_react/"
               >
                 code
@@ -144,7 +145,8 @@ export default class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "300px",
-                backgroundColor: "#a73737"
+                backgroundImage:
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}
             >
               <img src={image3} alt="error" />
@@ -154,7 +156,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#a73737" }}
+                style={{ color: "#ee6e73 " }}
                 href="https://github.com/deScamuS/canvas"
               >
                 code
@@ -198,7 +200,7 @@ export default class Projects extends Component {
   }
 }
 const textStyle = {
-  color: "#a73737",
+  color: "#485563 ",
   fontFamily: "Alcubierre, sans serif",
   backgroundColor: "#e2d1c3 "
 };

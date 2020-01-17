@@ -5,7 +5,7 @@ import Toggle from "../Sidedrawer/Toggle";
 import "./Topnav.css";
 
 const Topnav = props => (
-  <header className="toolbar">
+  <div>
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">
         <Toggle click={props.drawerClickHandler} />
@@ -42,7 +42,7 @@ const Topnav = props => (
         </ul>
       </div>
     </nav>
-  </header>
+  </div>
 );
 
 export default Topnav;

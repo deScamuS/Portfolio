@@ -43,7 +43,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
-  background: #a73737;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 
   background-repeat: no-repeat;
   color: #e2d1c3;
@@ -51,8 +51,8 @@ body {
 
 .Home > .intro {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.75em;
-  font-weight: 600;
+  font-size: 45px;
+  font-weight: 200;
 }
 
 .Home > .tagline {
@@ -73,7 +73,7 @@ body {
   padding: 10px;
 }
 .icons-social :hover {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+background-color: #ee6e73
 }
 
 .devto {

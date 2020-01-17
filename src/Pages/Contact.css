@@ -3,7 +3,7 @@ h2 {
 }
 
 h3 {
-  color: #a73737;
+  color: #ee6e73;
   font-family: "Alcubierre", sans serif;
   text-align: center;
 }
@@ -42,10 +42,14 @@ div {
 
 .college {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 29px;
 }
 .text-secondary {
-  color: #a73737;
-  font-family: "Gayathri", sans-serif;
+  color: #ee6e73;
+  font-family: "Montserrat", sans-serif;
   font-size: 38px;
   line-height: 1;
   text-align: center;
@@ -57,7 +61,13 @@ div {
 
 .info {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+}
+.heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  color: #ee6e73 !important;
 }

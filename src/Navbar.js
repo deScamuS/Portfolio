@@ -25,7 +25,7 @@ export default class NavBar extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
     return (
-      <div style={{ height: '100%' }}>
+      <div style={{ height: '100%'}}>
         <Topnav drawerClickHandler={this.drawerToggleClickHandler} />
         <Sidedrawer show={this.state.sideDrawerOpen} />
         {backdrop}

@@ -73,15 +73,15 @@ body {
   padding: 10px;
 }
 .icons-social :hover {
-background-color: #ee6e73
+background-color: #ee6e73;
 }
 
 .devto {
-  margin-bottom: -0.2rem;
+  margin-bottom: -0.4rem;
 }
 
 .devto svg {
-  margin-bottom: -0.2rem;
+  margin-bottom: -0.6rem;
   margin-left: 0.675rem;
   width: 2.65rem;
   height: 2.65rem;

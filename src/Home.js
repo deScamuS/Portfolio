@@ -27,8 +27,8 @@ export default class Home extends Component {
       <>
         <Navbar />
         {backdrop}
-        <div style={{ height: "100%", marginTop: "-64px" }}>
-          <main className="Home" style={{ marginTop: "54px" }}>
+        <div style={{ height: "100%", marginTop: "-65px" }}>
+          <main className="Home" style={{ marginTop: "59px" }}>
             <br />
             <div
               style={{ fontFamily: "Alcubierre, sans serif" }}

@@ -32,12 +32,11 @@
   color: #e2d1c3;
   text-decoration: none;
   font-size: 1.2rem;
-  font-family: "Gayathri", sans-serif;
-}
+  font-family: "Montserrat", sans-serif;}
 
 .side-drawer a:hover,
 .side-drawer a:active {
- color: rgba(72, 85, 99, 2) !important;
+  color: #ee6e73;
 }
 
 @media (min-width: 769px) {

@@ -2,14 +2,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  background-color: #ee6e73;
+  position: fixed; 
+  height: 59px;
 }
 .toolbar__navigation {
-  background-color: #ee6e73;
   display: flex;
   height: 100%;
   align-items: center;
-  padding: 02rem;
+  padding: 0 1rem;
 }
 
 .toolbar__logo {
@@ -20,7 +21,6 @@
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: "Gayathri", sans-serif;
 }
 
 .spacer {
@@ -36,13 +36,13 @@
 
 .toolbar_navigation-items li {
   padding: 0 0.5rem;
-  margin-right: 40px;
+  color: #485563;
 }
 
 .toolbar_navigation-items a {
   color: #485563;
-  text-decoration: none;
-  margin-right: 17px;
+  margin-right: 10px;
+  font-size: 1.2rem;
 }
 
 .toolbar_navigation-items a:hover,

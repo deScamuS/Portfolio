@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import './App.css'
-import Topnav from './Topnav/Topnav';
-import Sidedrawer from './Sidedrawer/Sidedrawer';
-import Backdrop from './Backdrop/Backdrop';
+import React, { Component } from "react";
+import Topnav from "./Topnav/Topnav";
+import Sidedrawer from "./Sidedrawer/Sidedrawer";
+import Backdrop from "./Backdrop/Backdrop";
 
 export default class NavBar extends Component {
   state = {
@@ -10,7 +9,7 @@ export default class NavBar extends Component {
   };
 
   drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
+    this.setState(prevState => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
@@ -22,14 +21,14 @@ export default class NavBar extends Component {
   render() {
     let backdrop;
     if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <div style={{ height: '100%'}}>
+      <div style={{ height: "100%" }}>
         <Topnav drawerClickHandler={this.drawerToggleClickHandler} />
         <Sidedrawer show={this.state.sideDrawerOpen} />
         {backdrop}
       </div>
-    )
+    );
   }
 }

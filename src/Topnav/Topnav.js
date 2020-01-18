@@ -5,7 +5,7 @@ import Toggle from "../Sidedrawer/Toggle";
 import "./Topnav.css";
 
 const Topnav = props => (
-  <div>
+  <div className="toolbar">
     <nav className="toolbar__navigation">
       <div className="toolbar__toggle-button">
         <Toggle click={props.drawerClickHandler} />

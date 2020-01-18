@@ -24,7 +24,7 @@ export default class Home extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <>
+      <div style={{ height: "100%" }}>
         <Navbar />
         {backdrop}
         <div style={{ height: "100%", marginTop: "-65px" }}>
@@ -48,7 +48,7 @@ export default class Home extends Component {
             </div>
           </main>
         </div>
-      </>
+      </div>
     );
   }
 }

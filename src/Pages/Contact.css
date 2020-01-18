@@ -1,5 +1,4 @@
-
-body{
+body {
   margin: 0px;
 }
 
@@ -31,7 +30,7 @@ p {
 }
 
 .contact1 {
-  margin-top: -40px;
+  margin-top: -12px;
 }
 
 .contact {
@@ -74,5 +73,5 @@ div {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   line-height: 1;
-  color: #ee6e73 !important;
+  color: #ee6e73;
 }

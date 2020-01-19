@@ -170,7 +170,7 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "#e2d1c3" }}>
+      <div style={{ backgroundColor: "#e2d1c3", marginTop: "85px" }}>
         <NavBar />
         <div
           className="project-tabs"

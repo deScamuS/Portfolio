@@ -63,7 +63,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#ee6e73 " }}
+                style={{ color: "#EB4D4D " }}
                 href="https://github.com/deScamuS/nasa_api"
               >
                 code
@@ -94,7 +94,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#ee6e73 " }}
+                style={{ color: "#EB4D4D " }}
                 href="https://github.com/deScamuS/jscript_calc"
               >
                 code
@@ -125,7 +125,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button onClick={this.handleClick} colored>
               <a
-                style={{ color: "#ee6e73 " }}
+                style={{ color: "#EB4D4D" }}
                 href="https://github.com/descamus/weather-application_react/"
               >
                 code
@@ -156,7 +156,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#ee6e73 " }}
+                style={{ color: "#EB4D4D " }}
                 href="https://github.com/deScamuS/canvas"
               >
                 code
@@ -170,7 +170,7 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "#e2d1c3", marginTop: "85px" }}>
+      <div style={{ backgroundColor: "#e2d1c3" }}>
         <NavBar />
         <div
           className="project-tabs"

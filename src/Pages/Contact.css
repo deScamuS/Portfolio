@@ -1,13 +1,15 @@
 body {
+  position: fixed;
   margin: 0px;
 }
 
 h2 {
+
   text-align: center;
 }
 
 h3 {
-  color: #ee6e73;
+  color: #485563; 
   font-family: "Alcubierre", sans serif;
   text-align: center;
 }
@@ -52,7 +54,7 @@ div {
   line-height: 29px;
 }
 .text-secondary {
-  color: #ee6e73;
+  color: #EB4D4D;
   font-family: "Montserrat", sans-serif;
   font-size: 38px;
   line-height: 1;
@@ -73,5 +75,5 @@ div {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   line-height: 1;
-  color: #ee6e73;
+  color: #EB4D4D;
 }

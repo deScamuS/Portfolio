@@ -1,7 +1,7 @@
 .toggle-button {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 24px;
   width: 30px;
   background: transparent;
@@ -16,9 +16,8 @@
 }
 
 .toggle-button__line {
-  width: 30px;
-  height: 3px;
-  background-color: #485563 ;
+  width: 29px;
+  height: 4px;
+  background-color: #485563;
   border-radius: 1px;
-  
 }

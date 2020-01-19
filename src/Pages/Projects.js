@@ -200,7 +200,7 @@ export default class Projects extends Component {
   }
 }
 const textStyle = {
-  color: "#485563 ",
+  color: "#EB4D4D",
   fontFamily: "Alcubierre, sans serif",
-  backgroundColor: "#e2d1c3 "
+  paddingTop: "60px"
 };

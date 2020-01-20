@@ -57,7 +57,6 @@ const Contact = () => {
           </Fade>
         </div>
         <br />
-        <hr />
         <Fade left big>
           <h3 style={textStyle}>university</h3>
         </Fade>

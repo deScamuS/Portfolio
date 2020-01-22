@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27e36a8af764fc332b9a25b37575abff",
+    "revision": "ed243574571112ba45d9dfce2a454af2",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.ceea6fac.chunk.css"
   },
   {
-    "revision": "1017292e0476c9c65d16",
+    "revision": "4031d33c58b2380acac2",
     "url": "/portfolio/static/css/main.99247dc7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.90a67846.chunk.js.LICENSE"
   },
   {
-    "revision": "1017292e0476c9c65d16",
-    "url": "/portfolio/static/js/main.dc0b7130.chunk.js"
+    "revision": "4031d33c58b2380acac2",
+    "url": "/portfolio/static/js/main.df598bed.chunk.js"
   },
   {
     "revision": "e139b2548d94e481a5d0",
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/booklist.48034d5d.jpg"
   },
   {
-    "revision": "f66789b21250d4ec301ae055da0e4041",
-    "url": "/portfolio/static/media/nasa.f66789b2.png"
+    "revision": "bd36def31715ca0e42efc354f1fe8f22",
+    "url": "/portfolio/static/media/mt.bd36def3.jpg"
   },
   {
-    "revision": "9be22bee81b89f44b3112113e10c360f",
-    "url": "/portfolio/static/media/weather.9be22bee.jpg"
+    "revision": "f66789b21250d4ec301ae055da0e4041",
+    "url": "/portfolio/static/media/nasa.f66789b2.png"
   }
 ]);

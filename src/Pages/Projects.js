@@ -3,7 +3,7 @@ import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import logo from "../img/nasa.png";
 import image from "../img/calc.png";
-import image2 from "../img/weather.jpg";
+import image2 from "../img/mt.jpg";
 import image3 from "../img/booklist.jpg";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";

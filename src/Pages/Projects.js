@@ -109,7 +109,7 @@ export default class Projects extends Component {
           shadow={6}
           style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
         >
-          <a href="https://descamus.github.io/weather-application_react/">
+          <a href="https://descamus.github.io/metronome/">
             <CardTitle
               style={{
                 color: "#fff",
@@ -121,12 +121,12 @@ export default class Projects extends Component {
               <img src={image2} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.3rem" }}>Another WeatherApp</CardText>
+          <CardText style={{ fontSize: "1.3rem" }}>Metronome</CardText>
           <CardActions border>
             <Button onClick={this.handleClick} colored>
               <a
                 style={{ color: "#EB4D4D" }}
-                href="https://github.com/descamus/weather-application_react/"
+                href="https://github.com/descamus/metronome/"
               >
                 code
               </a>

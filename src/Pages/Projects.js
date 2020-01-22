@@ -3,7 +3,7 @@ import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import logo from "../img/nasa.png";
 import image from "../img/calc.png";
-import image2 from "../img/mt.jpg";
+import image2 from "../img/vwood.jpg";
 import image3 from "../img/booklist.jpg";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";
@@ -81,8 +81,8 @@ export default class Projects extends Component {
           <a href="https://descamus.github.io/jscript_calc/">
             <CardTitle
               style={{
-                color: "#fff",
-                height: "300px",
+                color: "rgb(255, 255, 255)",
+                height: "299px",
                 backgroundImage:
                   "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}
@@ -113,7 +113,6 @@ export default class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "300px",
                 backgroundImage:
                   "linear-gradient(60deg, #29323c 4%, #485563 100%)"
               }}

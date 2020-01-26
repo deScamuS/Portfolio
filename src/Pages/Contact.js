@@ -23,21 +23,14 @@ const Contact = () => {
           <h3 style={textStyle}>me...</h3>
         </Fade>
         <p className="bio">
-          Hey! I'm Mike DeSantis and i'm originally from Minneapolis, MN where
-          my family owned and operated a marina on Lake Minntonka, MN, I was
-          lucky to have lived and worked on the water and in the marina industry
-          which taught me many things about community, communication, and above
-          all else, the importance of solid teamwork and a mutual respect for
-          others. I eventually moved to Seattle, where I graduated from Seattle
-          Pacific University and then began traveling and teaching in Nepal,
-          Indonesia, Peru and Egypt.
+        Hey, I'm Michael and I currenty reside in Minneapolis. I've
+              lived and worked as a teachr in Peru, Nepal, Seattle, & LA, and during that time I developed a
+              passion for programming , and have a vociferous appetite for developing my
+              skill-sets and capabilities to positively contribute to teams in
+              both a creative and technological manner. Thanks for taking the
+              time to have a look!
           <br />
-          <br />I developed a passion for programming and eventually decided to
-          take make a change - so here we are. As a teacher I was constantly
-          learning new things while experiencing diverse cultures around the
-          world and I'm confident that through hardwork, my love of learning and
-          fascination with programming, I could be an asset on any team... And I
-          like making stuff with...
+
         </p>
         <div
           style={{

@@ -23,41 +23,57 @@ const Contact = () => {
           <h3 style={textStyle}>me...</h3>
         </Fade>
         <p className="bio">
-        Hey, I'm Michael and I currenty reside in Minneapolis. I've
-              lived and worked as a teachr in Peru, Nepal, Seattle, & LA, and during that time I developed a
-              passion for programming , and have a vociferous appetite for developing my
-              skill-sets and capabilities to positively contribute to teams in
-              both a creative and technological manner. Thanks for taking the
-              time to have a look!
+          Hey, I'm Michael and I currenty reside in Minneapolis; i've lived and
+          worked as a teacher in Nepal, Seattle, LA & Peru and during that time
+          I developed a passion for programming. I have a vociferous appetite
+          for developing my skill-sets and capabilities so I may positively
+          contribute to teams in both a creative and technological manner.
+          Thanks for taking the time to have a look!
           <br />
+        </p>
 
-        </p>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center"
-          }}
-        >
-          <Fade left big>
-            <img src={logo0} alt="" />
-          </Fade>
-          <Fade bottom big>
-            <img src={logo1} alt="" />
-          </Fade>
-          <Fade right big>
-            <img src={logo2} alt="" />
-          </Fade>
-        </div>
         <br />
-        <Fade left big>
-          <h3 style={textStyle}>university</h3>
-        </Fade>
-        <p className="college">
-          University of San Diego | Kansas University | Seattle Pacific
-          University
-        </p>
       </div>
+      <div class="contact-title">
+        <h1>I'd love to hear from you</h1>
+      </div>
+      <Fade left big>
+        <div class="contact-form">
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://formspree.io/desanmichael1@gmail.com"
+          >
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Full Name"
+              required
+            />
+            <br />
+
+            <input
+              type="email"
+              name="_replyto"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+            <br />
+
+            <textarea
+              name="message"
+              class="form-control"
+              placeholder="Message"
+              rows="4"
+              required=""
+            ></textarea>
+            <br />
+            <input type="submit" class="form-control submit" value="Send" />
+          </form>
+        </div>
+      </Fade>
       <main id="contact">
         <Fade left big>
           <h3 style={textStyle}>

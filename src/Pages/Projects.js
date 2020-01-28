@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import logo from "../img/nasa.png";
+import logo0 from "../img/react2.png";
+import logo1 from "../img/jslogo.png";
+import logo2 from "../img/node.png";
 import image from "../img/calc.png";
 import image2 from "../img/vwood.jpg";
 import image3 from "../img/booklist.jpg";
@@ -190,6 +193,23 @@ export default class Projects extends Component {
             <Fade right big>
               <h1 style={textStyle}>
                 <center>Projects</center>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center"
+                  }}
+                >
+                  <Fade left big>
+                    <img src={logo0} alt="" />
+                  </Fade>
+                  <Fade bottom big>
+                    <img src={logo1} alt="" />
+                  </Fade>
+                  <Fade right big>
+                    <img src={logo2} alt="" />
+                  </Fade>
+                </div>
               </h1>
             </Fade>
           </div>

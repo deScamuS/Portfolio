@@ -31,7 +31,7 @@ export default class Home extends Component {
           <main className="Home" style={{ marginTop: "59px" }}>
             <br />
             <div
-              style={{ fontFamily: "Alcubierre, sans serif" }}
+              style={{ fontFamily: "Lato, sans serif", fontWeight: "200" }}
               className="intro"
             >
               Hello, I'm Michael

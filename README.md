@@ -1,3 +1,21 @@
+
+- personal portfolio using Reactjs and react router (hashRouter to enable proper deployment to gh-pages).
+
+- Material-U-React to help style, React Reveal for some easy, simple fade ins and 
+React MDL for tabs and cards ui display..
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

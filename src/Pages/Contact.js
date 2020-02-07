@@ -75,7 +75,7 @@ const Contact = () => {
       <main id="contact">
         <Fade left big>
           <h3 style={textStyle}>
-            <center>contact</center>
+            <center>contact...</center>
           </h3>
         </Fade>
         <div id="contact">

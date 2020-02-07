@@ -4,10 +4,10 @@ import "react-mdl/extra/material.js";
 import logo from "../img/nasa.png";
 import logo0 from "../img/react2.png";
 import logo1 from "../img/jslogo.png";
-import logo2 from "../img/node.png";
 import image from "../img/calc.png";
 import image2 from "../img/vwood.jpg";
 import image3 from "../img/booklist.jpg";
+import image4 from "../img/iconcode.png";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";
 import "./Projects.css";
@@ -160,15 +160,46 @@ export default class Projects extends Component {
               <a
                 style={{ color: "#E98074 " }}
                 href="https://github.com/deScamuS/canvas">
-                >
-                  code
+
+                code
               </a>
             </Button>
           </CardActions>
         </Card>
       );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <Card
+          shadow={6}
+          style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
+        >
+          <a href="https://descamus.github.io/canvas/">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "300px",
+                backgroundImage:
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
+              }}
+            >
+              <img src={image4} alt="error" />
+            </CardTitle>
+          </a>
+          <CardText style={{ fontSize: "1.5rem" }}>Portfolio Code</CardText>
+          <CardActions border>
+            <Button colored>
+              <a
+                style={{ color: "#E98074 " }}
+                href="https://github.com/deScamuS/portfolio/">
+
+                code
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
+      )
     }
-  };
+  }
 
   render() {
     return (
@@ -183,6 +214,7 @@ export default class Projects extends Component {
             <Tab>Javascript</Tab>
             <Tab>React</Tab>
             <Tab>Javascript</Tab>
+            <Tab>React</Tab>
           </Tabs>
           <Grid className="projects">
             <Cell col={12}>
@@ -206,9 +238,7 @@ export default class Projects extends Component {
                   <Fade bottom big>
                     <img src={logo1} alt="" />
                   </Fade>
-                  <Fade right big>
-                    <img src={logo2} alt="" />
-                  </Fade>
+
                 </div>
               </h1>
             </Fade>

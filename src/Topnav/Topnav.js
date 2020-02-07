@@ -17,7 +17,7 @@ const Topnav = props => (
         <ul>
           <li>
             <Link
-              style={{ fontSize: "18px", fontFamily: "Montserrat, sans-serif" }}
+              style={{ fontSize: "18px", fontFamily: "Lato, sans-serif", fontWeight: "300" }}
               to="/"
             >
               Home
@@ -25,7 +25,7 @@ const Topnav = props => (
           </li>
           <li>
             <Link
-              style={{ fontSize: "17px", fontFamily: "Montserrat, sans-serif" }}
+              style={{ fontSize: "17px", fontFamily: "Lato, sans-serif", fontWeight: "300" }}
               to="/projects"
             >
               Projects
@@ -33,7 +33,7 @@ const Topnav = props => (
           </li>
           <li>
             <Link
-              style={{ fontSize: "17px", fontFamily: "Montserrat, sans-serif" }}
+              style={{ fontSize: "17px", fontFamily: "Lato, sans-serif", fontWeight: "300" }}
               to="/contact"
             >
               Contact

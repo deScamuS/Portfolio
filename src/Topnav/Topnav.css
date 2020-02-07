@@ -2,7 +2,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #eb4d4d;
+  background-color: #E98074;
   height: 89px;
 }
 .toolbar__navigation {
@@ -17,7 +17,7 @@
 }
 
 .toolbar__logo a {
-  color: white;
+  color: #eae7dc;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -46,7 +46,7 @@
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: #e2d1c3;
+  color: #eae7dc;
 }
 
 @media (max-width: 768px) {

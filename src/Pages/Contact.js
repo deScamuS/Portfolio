@@ -3,9 +3,7 @@ import React from "react";
 import "./Contact.css";
 import Fade from "react-reveal/Fade";
 import NavBar from "../Navbar";
-import logo0 from "../img/react2.png";
-import logo1 from "../img/jslogo.png";
-import logo2 from "../img/node.png";
+
 
 const Contact = () => {
   return (
@@ -23,9 +21,9 @@ const Contact = () => {
           <h3 style={textStyle}>me...</h3>
         </Fade>
         <p className="bio">
-          Hey, I'm Michael and I currenty reside in Minneapolis; i've lived and
+          Hey, I'm Michael and I currenty reside in Minneapolis; I've lived and
           worked as a teacher in Nepal, Seattle, LA & Peru and during that time
-          I developed a passion for programming. I have a vociferous appetite
+          I developed an interest programming. I have a vociferous appetite
           for developing my skill-sets and capabilities so I may positively
           contribute to teams in both a creative and technological manner.
           Thanks for taking the time to have a look!
@@ -113,7 +111,8 @@ const Contact = () => {
 
 const textStyle = {
   color: "#EB4D4D",
-  fontFamily: "Alcubierre, sans serif",
+  fontFamily: "Lato, sans serif",
+  fontWeight: "300",
   paddingTop: "60px"
 };
 export default Contact;

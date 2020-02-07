@@ -10,21 +10,23 @@ h2 {
 
 h3 {
   color: #485563;
-  font-family: "Alcubierre", sans serif;
+  font-family: "Lato", sans serif;
+  font-weight: 300; 
   text-align: center;
 }
 
 h4 {
-  font-family: "Alcubierre", sans serif;
+  font-family: "Lato", sans serif;
+  font-weight: 300; 
   text-align: center;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: left;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 29px;
   padding: 10px;
   margin-left: 40px;
@@ -37,19 +39,21 @@ body {
   text-align: center;
   background-size: cover;
   background-position: center;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight:300; 
 }
 
 .contact-title {
   margin-top: 100px;
-  color: #fc766aff;
+  color: #E98074;
   text-transform: uppercase;
   transition: all 4s ease-in-out;
 }
 .contact-title h1 {
   font-size: 29px;
   line-height: 10 px;
-  font-family: "Alcubierre", sans serif;
+  font-family: "Lato", sans serif;
+  font-weight: 300; 
 
 }
 .contact-title h2 {
@@ -68,7 +72,7 @@ form {
   background: transparent;
   border-bottom: 1px solid gray;
   outline: none;
-  color: #fff;
+  color: #EAE7dc;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -78,9 +82,9 @@ input {
 }
 
 form .submit {
-  background: #fc766aff;
+  background: #E98074;
   border-color: transparent;
-  color: #fff;
+  color: #EAE7dc;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -89,6 +93,6 @@ form .submit {
 }
 
 form .submit:hover {
-  background-color: rgb(197, 99, 90);
+  background-color: #E85A4F;
   cursor: pointer;
 }

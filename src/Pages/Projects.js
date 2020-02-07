@@ -66,7 +66,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#EB4D4D " }}
+                style={{ color: "#E98074" }}
                 href="https://github.com/deScamuS/nasa_api"
               >
                 code
@@ -97,7 +97,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#EB4D4D " }}
+                style={{ color: "#E98074" }}
                 href="https://github.com/deScamuS/jscript_calc"
               >
                 code
@@ -127,7 +127,7 @@ export default class Projects extends Component {
           <CardActions border>
             <Button onClick={this.handleClick} colored>
               <a
-                style={{ color: "#EB4D4D" }}
+                style={{ color: "#E98074" }}
                 href="https://github.com/descamus/metronome/"
               >
                 code
@@ -158,10 +158,10 @@ export default class Projects extends Component {
           <CardActions border>
             <Button colored>
               <a
-                style={{ color: "#EB4D4D " }}
-                href="https://github.com/deScamuS/canvas"
-              >
-                code
+                style={{ color: "#E98074 " }}
+                href="https://github.com/deScamuS/canvas">
+                >
+                  code
               </a>
             </Button>
           </CardActions>
@@ -172,7 +172,7 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "#e2d1c3" }}>
+      <div style={{ backgroundColor: "#eae7dc" }}>
         <NavBar />
         <div
           className="project-tabs"
@@ -219,7 +219,8 @@ export default class Projects extends Component {
   }
 }
 const textStyle = {
-  color: "#EB4D4D",
-  fontFamily: "Alcubierre, sans serif",
+  color: "#E98074",
+  fontFamily: "Lato, sans serif",
+  fontWeight: "300",
   paddingTop: "60px"
 };

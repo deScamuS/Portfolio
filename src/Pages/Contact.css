@@ -19,18 +19,18 @@ h4 {
   font-family: "Lato", sans serif;
   font-weight: 300; 
   text-align: center;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
 p {
   font-family: "Lato", sans-serif;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 29px;
   padding: 10px;
   margin-left: 40px;
   margin-right: 40px;
+  
 }
 
 body {
@@ -78,7 +78,7 @@ form {
 }
 input {
   height: 45px;
-  background: rgb(0, 0, 0, .5)
+  background: rgb(0, 0, 0, .1)
 }
 
 form .submit {

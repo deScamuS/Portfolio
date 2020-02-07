@@ -82,25 +82,25 @@ const Contact = () => {
           <div className="sm-heading"></div>
           <div className="boxes">
             <div>
-              <h3>
+              <h4>
                 <span className="text-secondary"></span>
-              </h3>
-              <h3>
+              </h4>
+              <h4>
                 <span className="text-secondary">Email: </span>
-              </h3>
-              <h3>desanmichael1@gmail.com</h3>
+              </h4>
+              <h4>desanmichael1@gmail.com</h4>
             </div>
             <div>
-              <h3>
+              <h4>
                 <span className="text-secondary">Phone: </span>
-              </h3>
-              <h3>(310)650-3265</h3>
+              </h4>
+              <h4>(310)650-3265</h4>
             </div>
             <div>
-              <h3>
+              <h4>
                 <span className="text-secondary">Address: </span>
-              </h3>
-              <h3>401 N 2nd St Minneapolis, MN 55401</h3>
+              </h4>
+              <h4>401 N 2nd St Minneapolis, MN 55401</h4>
             </div>
           </div>
         </div>

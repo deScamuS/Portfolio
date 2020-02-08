@@ -23,7 +23,7 @@ const Contact = () => {
         <p className="bio">
           Hey, I'm Michael and I currenty reside in Minneapolis; I've lived and
           worked as a teacher in Nepal, Seattle, LA & Peru and during that time
-          I developed an interest programming. I have a vociferous appetite
+          I developed an interest in programming. I have a vociferous appetite
           for developing my skill-sets and capabilities so I may positively
           contribute to teams in both a creative and technological manner.
           Thanks for taking the time to have a look!

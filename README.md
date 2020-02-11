@@ -2,7 +2,7 @@
 - personal portfolio using Reactjs and react router (hashRouter to enable proper deployment to gh-pages).
 
 - Material-U-React to help style, React Reveal for some easy, simple fade ins and 
-React MDL for tabs and cards ui display..
+- React MDL for tabs and cards ui display..
 
 
 

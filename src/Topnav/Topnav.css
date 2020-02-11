@@ -3,7 +3,8 @@
   left: 0;
   width: 100%;
   background-color: #E98074;
-  height: 89px;
+  height: 85px;
+  position: static;
 }
 .toolbar__navigation {
   display: flex;

@@ -173,7 +173,7 @@ export default class Projects extends Component {
           shadow={6}
           style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
         >
-          <a href="https://descamus.github.io/canvas/">
+          <a href="https://descamus.github.io/portfolio/">
             <CardTitle
               style={{
                 color: "#fff",
@@ -197,13 +197,44 @@ export default class Projects extends Component {
             </Button>
           </CardActions>
         </Card>
-      )
+      );
+    } else if (this.state.activeTab === 5) {
+      return (
+        <Card
+          shadow={6}
+          style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
+        >
+          <a href="https://descamus.github.io/react-app/">
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "300px",
+                backgroundImage:
+                  "linear-gradient(60deg, #29323c 4%, #485563 100%)"
+              }}
+            >
+              <img src={image4} alt="error" />
+            </CardTitle>
+          </a>
+          <CardText style={{ fontSize: "1.5rem" }}>CRUD w/ React Hooks</CardText>
+          <CardActions border>
+            <Button colored>
+              <a
+                style={{ color: "#E98074 " }}
+                href="https://github.com/deScamuS/react-app/">
+
+                code
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
+      );
     }
   }
 
   render() {
     return (
-      <div style={{ backgroundColor: "#eae7dc" }}>
+      <div style={{ background: "#eae7dc"}}>
         <NavBar />
         <div
           className="project-tabs"
@@ -214,6 +245,7 @@ export default class Projects extends Component {
             <Tab>Javascript</Tab>
             <Tab>React</Tab>
             <Tab>Javascript</Tab>
+            <Tab>React</Tab>
             <Tab>React</Tab>
           </Tabs>
           <Grid className="projects">

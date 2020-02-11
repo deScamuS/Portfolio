@@ -59,7 +59,7 @@ export default class Projects extends Component {
               <img src={logo} alt="none" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>
+          <CardText style={{ fontSize: "1.2rem" }}>
             {""}
             Picture of the Day
           </CardText>
@@ -93,7 +93,7 @@ export default class Projects extends Component {
               <img src={image} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>Calculator</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>Calculator</CardText>
           <CardActions border>
             <Button colored>
               <a
@@ -123,7 +123,7 @@ export default class Projects extends Component {
               <img src={image2} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.3rem" }}>Metronome</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>Metronome</CardText>
           <CardActions border>
             <Button onClick={this.handleClick} colored>
               <a
@@ -154,7 +154,7 @@ export default class Projects extends Component {
               <img src={image3} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>Quick Reference</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>Quick Reference</CardText>
           <CardActions border>
             <Button colored>
               <a
@@ -185,7 +185,7 @@ export default class Projects extends Component {
               <img src={image4} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>Portfolio Code</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>Portfolio Code</CardText>
           <CardActions border>
             <Button colored>
               <a
@@ -216,7 +216,7 @@ export default class Projects extends Component {
               <img src={image4} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.5rem" }}>CRUD w/ React Hooks</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>c.r.u.d - React Hooks</CardText>
           <CardActions border>
             <Button colored>
               <a
@@ -234,7 +234,7 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div style={{ background: "#eae7dc"}}>
+      <div style={{ background: "#eae7dc" }}>
         <NavBar />
         <div
           className="project-tabs"

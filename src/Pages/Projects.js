@@ -173,7 +173,7 @@ export default class Projects extends Component {
           shadow={6}
           style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
         >
-          <a href="https://descamus.github.io/portfolio/">
+          <a href="https://descamus.github.io.weather_app">
             <CardTitle
               style={{
                 color: "#fff",
@@ -185,12 +185,12 @@ export default class Projects extends Component {
               <img src={image4} alt="error" />
             </CardTitle>
           </a>
-          <CardText style={{ fontSize: "1.2rem" }}>Portfolio Code</CardText>
+          <CardText style={{ fontSize: "1.2rem" }}>Weather</CardText>
           <CardActions border>
             <Button colored>
               <a
                 style={{ color: "#E98074 " }}
-                href="https://github.com/deScamuS/portfolio/">
+                href="https://github.com/deScamuS/weather_app/">
 
                 code
               </a>

@@ -173,7 +173,7 @@ export default class Projects extends Component {
           shadow={6}
           style={{ minWidth: "450", margin: "auto", backgroundColor: "e2d1c3" }}
         >
-          <a href="https://descamus.github.io.weather_app">
+          <a href="https://descamus.github.io/weather_app">
             <CardTitle
               style={{
                 color: "#fff",

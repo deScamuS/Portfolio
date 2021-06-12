@@ -42,9 +42,7 @@ export default class Home extends Component {
                 <i className="fab fa-github"></i>
               </a>
 
-              <a href="https://www.facebook.com/michael.desantis.338211">
-                <i className="fab fa-facebook"></i>
-              </a>
+        
             </div>
           </main>
         </div>
